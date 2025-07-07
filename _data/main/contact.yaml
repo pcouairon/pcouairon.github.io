@@ -1,0 +1,27 @@
+- url: mailto:paul.couairon@isir.upmc.fr
+  icon: /assets/icons/mail.png
+  name: E-Mail
+
+- url: https://www.linkedin.com/in/paul-couairon/
+  icon: /assets/icons/linkedin.png
+  name: LinkedIn
+
+# - url: 
+#   icon: /assets/icons/cv.png
+#   name: CV
+
+- url: https://twitter.com/PaulCouairon
+  icon: /assets/icons/twitter.png
+  name: Twitter
+  
+- url: https://bsky.app/profile/paulcouairon.bsky.social
+  icon: /assets/icons/bluesky.png
+  name: Bluesky
+
+- url: https://scholar.google.fr/citations?user=yQRnP7YAAAAJ&hl=fr&oi=ao
+  icon: /assets/icons/scholar.png
+  name: Google Scholar
+
+- url: https://github.com/PaulCouairon
+  icon: /assets/icons/github.png
+  name: Github

@@ -1,0 +1,72 @@
+- title: "VidEdit: Zero-Shot and Spatially Aware Text-Driven Video Editing"
+  authors: <a href="#">Paul Couairon</a>, <a href="#">Clément Rambour</a>*, <u><a href="#">Jean-Emmanuel Haugeard</a></u>, <a href="#">Nicolas Thome</a>
+  date: 2023-06-14
+  year: 2023
+  journal: TMLR
+  thumbnail: /assets/publications/t2i_imagenet/thumbnail.png
+  pdf:  https://arxiv.org/abs/2306.08707
+  website: https://videdit.github.io
+  abstract: "Recently, diffusion-based generative models have achieved remarkable success for image generation and edition. However, their use for video editing still faces important limitations. This paper introduces VidEdit, a novel method for zero-shot text-based video editing ensuring strong temporal and spatial consistency. Firstly, we propose to combine atlas-based and pre-trained text-to-image diffusion models to provide a training-free and efficient editing method, which by design fulfills temporal smoothness. Secondly, we leverage off-the-shelf panoptic segmenters along with edge detectors and adapt their use for conditioned diffusion-based atlas editing. This ensures a fine spatial control on targeted regions while strictly preserving the structure of the original video. Quantitative and qualitative experiments show that VidEdit outperforms state-of-the-art methods on DAVIS dataset, regarding semantic faithfulness, image preservation, and temporal consistency metrics. With this framework, processing a single video only takes approximately one minute, and it can generate multiple compatible edits based on a unique text prompt."
+  bibtex: "@article{couairon2024videdit, \n
+      &nbsp;&nbsp;  title           ={VidEdit: Zero-Shot and Spatially Aware Text-Driven Video Editing}, \n
+      &nbsp;&nbsp;  author          ={Paul Couairon and Cl{\'e}ment Rambour and Jean-Emmanuel Haugeard and Nicolas Thome}, \n
+      &nbsp;&nbsp;  journal         ={Transactions on Machine Learning Research}, \n
+      &nbsp;&nbsp;  issn            ={2835-8856}, \n
+      &nbsp;&nbsp;  year            ={2024}, \n
+      &nbsp;&nbsp;  url={https://openreview.net/forum?id=i02A009I5a},
+      }"
+
+- title: "DiffCut: Catalyzing Zero-Shot Semantic Segmentation with Diffusion Features and Recursive Normalized Cut"
+  authors: <u><a href="#">Paul Couairon</a></u>, <a href="#">Mustafa Shukor</a>, <a href="#">Jean-Emmanuel Haugeard</a>, <a href="#">Matthieu Cord</a>, <a href="#">Nicolas Thome</a>
+  date: 2024-06-05
+  year: 2024
+  journal: NeurIPS 2024
+  thumbnail: /assets/publications/plonk/thumbnail.png
+  pdf:  https://arxiv.org/abs/2406.02842v2
+  github: https://github.com/PaulCouairon/DiffCut
+  website: https://diffcut-segmentation.github.io
+  abstract: "Foundation models have emerged as powerful tools across various domains including language, vision, and multimodal tasks. While prior works have addressed unsupervised image segmentation, they significantly lag behind supervised models. In this paper, we use a diffusion UNet encoder as a foundation vision encoder and introduce DiffCut, an unsupervised zero-shot segmentation method that solely harnesses the output features from the final self-attention block. Through extensive experimentation, we demonstrate that the utilization of these diffusion features in a graph based segmentation algorithm, significantly outperforms previous state-of-the-art methods on zero-shot segmentation. Specifically, we leverage a recursive Normalized Cut algorithm that softly regulates the granularity of detected objects and produces well-defined segmentation maps that precisely capture intricate image details. Our work highlights the remarkably accurate semantic knowledge embedded within diffusion UNet encoders that could then serve as foundation vision encoders for downstream tasks."
+  bibtex: "@inproceedings{couairon2024diffcut, \n
+      &nbsp;&nbsp;  title           ={DiffCut: Catalyzing Zero-Shot Semantic Segmentation with Diffusion Features and Recursive Normalized Cut}, \n
+      &nbsp;&nbsp;  author          ={Paul Couairon and Mustafa Shukor and Jean-Emmanuel Haugeard and Matthieu Cord and Nicolas Thome}, \n
+      &nbsp;&nbsp;  booktitle       ={The Thirty-eighth Annual Conference on Neural Information Processing Systems}
+      &nbsp;&nbsp;  year            ={2024}, \n
+      &nbsp;&nbsp;  url             ={https://openreview.net/forum?id=N0xNf9Qqmc}, \n
+      }"
+
+- title: "JAFAR: Jack-up Any Feature at Any Resolution"
+  authors: <u><a href="#">Paul Couairon</a></u>, <a href="#">Loïck Chambon</a>, <a href="#">Louis Serrano</a>, <a href="#">Jean-Emmanuel Haugeard</a>, <a href="#">Matthieu Cord</a>, <a href="#">Nicolas Thome</a>
+  date: 2025-06-10
+  year: 2025
+  journal: ArXiv Preprint
+  thumbnail: /assets/publications/plonk/thumbnail.png
+  pdf:  https://arxiv.org/abs/2506.11136
+  github: https://github.com/PaulCouairon/JAFAR
+  website: https://jafar-upsampler.github.io
+  abstract: "Foundation Vision Encoders have become essential for a wide range of dense vision tasks. However, their low-resolution spatial feature outputs necessitate feature upsampling to produce the high-resolution modalities required for downstream tasks. In this work, we introduce JAFAR—a lightweight and flexible feature upsampler that enhances the spatial resolution of visual features from any Foundation Vision Encoder to an arbitrary target resolution. JAFAR employs an attention-based module designed to promote semantic alignment between high-resolution queries—derived from low-level image features—and semantically enriched low-resolution keys, using Spatial Feature Transform (SFT) modulation. Notably, despite the absence of high-resolution supervision, we demonstrate that learning at low upsampling ratios and resolutions generalizes remarkably well to significantly higher output scales. Extensive experiments show that JAFAR effectively recovers fine-grained spatial details and consistently outperforms existing feature upsampling methods across a diverse set of downstream tasks."
+  bibtex: "@inproceedings{couairon2024diffcut, \n
+      &nbsp;&nbsp;  title           ={DiffCut: Catalyzing Zero-Shot Semantic Segmentation with Diffusion Features and Recursive Normalized Cut}, \n
+      &nbsp;&nbsp;  author          ={Paul Couairon and Loick Chambon and Louis Serrano and Jean-Emmanuel Haugeard and Matthieu Cord and Nicolas Thome}, \n
+      &nbsp;&nbsp;  year            ={2025}, \n
+      &nbsp;&nbsp;  eprint          ={2506.11136}, \n
+      &nbsp;&nbsp;  archivePrefix   ={arXiv}, \n
+      &nbsp;&nbsp;  primaryClass    ={cs.CV}, \n
+      &nbsp;&nbsp;  url             ={https://arxiv.org/abs/2506.11136},\n
+      }"
+
+# - title: "ViLU: Learning Vision-Language Uncertainties for Failure Prediction "
+#   authors: <u><a href="#">Marc Lafon</a></u>, <a href="#">Yannis Karmim</a>, <a href="#">Julio Silva-Rodríguez</a>, <a href="#">Paul Couairon/a>, <a href="#">Clément Rambour</a>, <a href="#">Clément Rambour</a>, <a href="#">Raphael Fournier-S'niehotta</a>, <a href="#">Ismail Ben Ayed</a>, <a href="#">Jose Dolz</a>, <a href="#">Nicolas Thome</a>
+#   date: 2025-06-05
+#   year: 2025
+#   journal: ICCV 2025
+#   thumbnail: /assets/publications/plonk/thumbnail.png
+#   pdf:  https://arxiv.org/abs/2406.02842v2
+#   github: https://github.com/PaulCouairon/DiffCut
+#   abstract: "Reliable Uncertainty Quantification (UQ) and failure prediction remain open challenges for Vision-Language Models (VLMs). We introduce ViLU, a new Vision-Language Uncertainty quantification framework that contextualizes uncertainty estimates by leveraging all task-relevant textual representations. ViLU constructs an uncertainty-aware multi-modal representation by integrating the visual embedding, the predicted textual embedding, and an image-conditioned textual representation via cross-attention. Unlike traditional UQ methods based on loss prediction, ViLU trains an uncertainty predictor as a binary classifier to distinguish correct from incorrect predictions using a weighted binary cross-entropy loss, making it loss-agnostic. In particular, our proposed approach is well-suited for post-hoc settings, where only vision and text embeddings are available without direct access to the model itself. Extensive experiments on diverse datasets show the significant gains of our method compared to state-of-the-art failure prediction methods. We apply our method to standard classification datasets, such as ImageNet-1k, as well as large-scale image-caption datasets like CC12M and LAION-400M. Ablation studies highlight the critical role of our architecture and training in achieving effective uncertainty quantification."
+#   bibtex: "@inproceedings{couairon2024diffcut, \n
+#       &nbsp;&nbsp;  title           ={DiffCut: Catalyzing Zero-Shot Semantic Segmentation with Diffusion Features and Recursive Normalized Cut}, \n
+#       &nbsp;&nbsp;  author          ={Paul Couairon and Mustafa Shukor and Jean-Emmanuel Haugeard and Matthieu Cord and Nicolas Thome}, \n
+#       &nbsp;&nbsp;  booktitle       ={The Thirty-eighth Annual Conference on Neural Information Processing Systems}
+#       &nbsp;&nbsp;  year            ={2024}, \n
+#       &nbsp;&nbsp;  url             ={https://openreview.net/forum?id=N0xNf9Qqmc}, \n
+#       }"
