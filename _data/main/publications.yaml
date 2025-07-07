@@ -59,7 +59,7 @@
       author          ={Lafon, Marc and Karmim, Yannis and Silva-Rodríguez, Julio and Couairon, Paul and Rambour, Clément and Fournier-S'niehotta, Raphael and Ben Ayed, Ismail and Dolz, Jose and Thome, Nicolas},
       booktitle       ={Proceedings of the IEEE/CVF International Conference on Computer Vision}
       year            ={2025},
-      }"
+      }
 
 - title: "JAFAR: Jack-up Any Feature at Any Resolution"
   authors: <u><a href="#">Paul Couairon</a></u>, <a href="#">Loïck Chambon</a>, <a href="#">Louis Serrano</a>, <a href="#">Jean-Emmanuel Haugeard</a>, <a href="#">Matthieu Cord</a>, <a href="#">Nicolas Thome</a>
