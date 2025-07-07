@@ -13,7 +13,7 @@
       &nbsp;&nbsp;  journal         ={Transactions on Machine Learning Research}, \n
       &nbsp;&nbsp;  issn            ={2835-8856}, \n
       &nbsp;&nbsp;  year            ={2024}, \n
-      &nbsp;&nbsp;  url={https://openreview.net/forum?id=i02A009I5a},
+      &nbsp;&nbsp;  url={https://openreview.net/forum?id=i02A009I5a}, \n
       }"
 
 - title: "DiffCut: Catalyzing Zero-Shot Semantic Segmentation with Diffusion Features and Recursive Normalized Cut"
@@ -29,7 +29,7 @@
   bibtex: "@inproceedings{couairon2024diffcut, \n
       &nbsp;&nbsp;  title           ={DiffCut: Catalyzing Zero-Shot Semantic Segmentation with Diffusion Features and Recursive Normalized Cut}, \n
       &nbsp;&nbsp;  author          ={Paul Couairon and Mustafa Shukor and Jean-Emmanuel Haugeard and Matthieu Cord and Nicolas Thome}, \n
-      &nbsp;&nbsp;  booktitle       ={The Thirty-eighth Annual Conference on Neural Information Processing Systems}
+      &nbsp;&nbsp;  booktitle       ={The Thirty-eighth Annual Conference on Neural Information Processing Systems}, \n
       &nbsp;&nbsp;  year            ={2024}, \n
       &nbsp;&nbsp;  url             ={https://openreview.net/forum?id=N0xNf9Qqmc}, \n
       }"
