@@ -7,14 +7,23 @@
   pdf:  https://arxiv.org/abs/2306.08707
   website: https://videdit.github.io
   abstract: "Recently, diffusion-based generative models have achieved remarkable success for image generation and edition. However, their use for video editing still faces important limitations. This paper introduces VidEdit, a novel method for zero-shot text-based video editing ensuring strong temporal and spatial consistency. Firstly, we propose to combine atlas-based and pre-trained text-to-image diffusion models to provide a training-free and efficient editing method, which by design fulfills temporal smoothness. Secondly, we leverage off-the-shelf panoptic segmenters along with edge detectors and adapt their use for conditioned diffusion-based atlas editing. This ensures a fine spatial control on targeted regions while strictly preserving the structure of the original video. Quantitative and qualitative experiments show that VidEdit outperforms state-of-the-art methods on DAVIS dataset, regarding semantic faithfulness, image preservation, and temporal consistency metrics. With this framework, processing a single video only takes approximately one minute, and it can generate multiple compatible edits based on a unique text prompt."
-  bibtex: "@article{couairon2024videdit, \n
-      &nbsp;&nbsp;  title           ={VidEdit: Zero-Shot and Spatially Aware Text-Driven Video Editing}, \n
-      &nbsp;&nbsp;  author          ={Paul Couairon and Cl{\'e}ment Rambour and Jean-Emmanuel Haugeard and Nicolas Thome}, \n
-      &nbsp;&nbsp;  journal         ={Transactions on Machine Learning Research}, \n
-      &nbsp;&nbsp;  issn            ={2835-8856}, \n
-      &nbsp;&nbsp;  year            ={2024}, \n
-      &nbsp;&nbsp;  url={https://openreview.net/forum?id=i02A009I5a}, \n
-      }"
+  bibtex: |
+    @article{couairon2024videdit,
+    title           ={VidEdit: Zero-Shot and Spatially Aware Text-Driven Video Editing},
+    author          ={Paul Couairon and Cl{\'e}ment Rambour and Jean-Emmanuel Haugeard and Nicolas Thome},
+    journal         ={Transactions on Machine Learning Research},
+    issn            ={2835-8856},
+    year            ={2024},
+    url={https://openreview.net/forum?id=i02A009I5a}
+  #     }"
+  # bibtex: "@article{couairon2024videdit, \n
+  #     &nbsp;&nbsp;  title           ={VidEdit: Zero-Shot and Spatially Aware Text-Driven Video Editing}, \n
+  #     &nbsp;&nbsp;  author          ={Paul Couairon and Cl{\'e}ment Rambour and Jean-Emmanuel Haugeard and Nicolas Thome}, \n
+  #     &nbsp;&nbsp;  journal         ={Transactions on Machine Learning Research}, \n
+  #     &nbsp;&nbsp;  issn            ={2835-8856}, \n
+  #     &nbsp;&nbsp;  year            ={2024}, \n
+  #     &nbsp;&nbsp;  url={https://openreview.net/forum?id=i02A009I5a} \n
+  #     }"
 
 - title: "DiffCut: Catalyzing Zero-Shot Semantic Segmentation with Diffusion Features and Recursive Normalized Cut"
   authors: <u><a href="#">Paul Couairon</a></u>, <a href="#">Mustafa Shukor</a>, <a href="#">Jean-Emmanuel Haugeard</a>, <a href="#">Matthieu Cord</a>, <a href="#">Nicolas Thome</a>
@@ -31,7 +40,7 @@
       &nbsp;&nbsp;  author          ={Paul Couairon and Mustafa Shukor and Jean-Emmanuel Haugeard and Matthieu Cord and Nicolas Thome}, \n
       &nbsp;&nbsp;  booktitle       ={The Thirty-eighth Annual Conference on Neural Information Processing Systems}, \n
       &nbsp;&nbsp;  year            ={2024}, \n
-      &nbsp;&nbsp;  url             ={https://openreview.net/forum?id=N0xNf9Qqmc}, \n
+      &nbsp;&nbsp;  url             ={https://openreview.net/forum?id=N0xNf9Qqmc} \n
       }"
 
 - title: "JAFAR: Jack-up Any Feature at Any Resolution"
@@ -51,7 +60,7 @@
       &nbsp;&nbsp;  eprint          ={2506.11136}, \n
       &nbsp;&nbsp;  archivePrefix   ={arXiv}, \n
       &nbsp;&nbsp;  primaryClass    ={cs.CV}, \n
-      &nbsp;&nbsp;  url             ={https://arxiv.org/abs/2506.11136},\n
+      &nbsp;&nbsp;  url             ={https://arxiv.org/abs/2506.11136} \n
       }"
 
 # - title: "ViLU: Learning Vision-Language Uncertainties for Failure Prediction "
