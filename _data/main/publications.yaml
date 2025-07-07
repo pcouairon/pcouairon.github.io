@@ -2,7 +2,7 @@
   authors: <a href="#">Paul Couairon</a>, <a href="#">Clément Rambour</a>*, <u><a href="#">Jean-Emmanuel Haugeard</a></u>, <a href="#">Nicolas Thome</a>
   date: 2023-06-14
   year: 2023
-  journal: TMLR 2024
+  journal: TMLR
   thumbnail: /assets/publications/videdit/thumbnail.png
   pdf:  https://arxiv.org/abs/2306.08707
   website: https://videdit.github.io
@@ -53,14 +53,13 @@
   pdf:  #https://arxiv.org/abs/2406.02842v2
   github: #https://github.com/PaulCouairon/DiffCut
   abstract: "Reliable Uncertainty Quantification (UQ) and failure prediction remain open challenges for Vision-Language Models (VLMs). We introduce ViLU, a new Vision-Language Uncertainty quantification framework that contextualizes uncertainty estimates by leveraging all task-relevant textual representations. ViLU constructs an uncertainty-aware multi-modal representation by integrating the visual embedding, the predicted textual embedding, and an image-conditioned textual representation via cross-attention. Unlike traditional UQ methods based on loss prediction, ViLU trains an uncertainty predictor as a binary classifier to distinguish correct from incorrect predictions using a weighted binary cross-entropy loss, making it loss-agnostic. In particular, our proposed approach is well-suited for post-hoc settings, where only vision and text embeddings are available without direct access to the model itself. Extensive experiments on diverse datasets show the significant gains of our method compared to state-of-the-art failure prediction methods. We apply our method to standard classification datasets, such as ImageNet-1k, as well as large-scale image-caption datasets like CC12M and LAION-400M. Ablation studies highlight the critical role of our architecture and training in achieving effective uncertainty quantification."
-  bibtex: #|
-    # @inproceedings{couairon2024diffcut,
-    #   title           ={DiffCut: Catalyzing Zero-Shot Semantic Segmentation with Diffusion Features and Recursive Normalized Cut},
-    #   author          ={Paul Couairon and Mustafa Shukor and Jean-Emmanuel Haugeard and Matthieu Cord and Nicolas Thome},
-    #   booktitle       ={The Thirty-eighth Annual Conference on Neural Information Processing Systems}
-    #   year            ={2024},
-    #   url             ={https://openreview.net/forum?id=N0xNf9Qqmc},
-    #   }"
+  bibtex: |
+    @inproceedings{lafon2025vilu,
+      title           ={ViLU: Learning Vision-Language Uncertainties for Failure Prediction},
+      author          ={Lafon, Marc and Karmim, Yannis and Silva-Rodríguez, Julio and Couairon, Paul and Rambour, Clément and Fournier-S'niehotta, Raphael and Ben Ayed, Ismail and Dolz, Jose and Thome, Nicolas},
+      booktitle       ={Proceedings of the IEEE/CVF International Conference on Computer Vision}
+      year            ={2025},
+      }"
 
 - title: "JAFAR: Jack-up Any Feature at Any Resolution"
   authors: <u><a href="#">Paul Couairon</a></u>, <a href="#">Loïck Chambon</a>, <a href="#">Louis Serrano</a>, <a href="#">Jean-Emmanuel Haugeard</a>, <a href="#">Matthieu Cord</a>, <a href="#">Nicolas Thome</a>
