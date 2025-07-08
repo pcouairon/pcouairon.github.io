@@ -66,12 +66,12 @@
         <!-- <div id="intro">
             {% include main/intro.html %}
         </div> -->
-        <div id="intro" class="video-background">
-            <video autoplay muted loop playsinline>
-                <source src="/assets/intro.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+        <div class="video-background">
+        <video autoplay muted loop playsinline aria-hidden="true">
+            <source src="/assets/intro.mp4" type="video/mp4">
+            Your browser does not support the video tag.
             {% include main/intro.html %}
+        </video>
         </div>
         <div id="about-me" class="section">
             {% include main/about_me.html %}
