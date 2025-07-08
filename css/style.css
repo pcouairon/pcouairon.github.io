@@ -204,7 +204,7 @@ main {
     margin-top: 10px;
 }
 
-/* #intro {
+#intro {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -212,19 +212,26 @@ main {
     background: linear-gradient(135deg, #2b6cb0, #4299e1);
     min-height: 45vh;
     padding: 60px 30px 30px;
-} */
+}
 
 .video-background {
     position: relative;
-    width: 20vw;
-    height: 20vh;
+    width: 100%;
+    height: 100vh; /* full screen height */
     overflow: hidden;
 }
 
 .video-background video {
-    width: 100%;
-    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
     object-fit: cover;
+    z-index: -1;
 }
 
 .pp {
