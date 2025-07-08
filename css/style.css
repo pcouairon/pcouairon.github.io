@@ -230,7 +230,7 @@ main {
     top: 50%;
     left: 50%;
     min-width: 100%;
-    min-height: 100%;
+    min-height: 45%;
     width: auto;
     height: auto;
     transform: translate(-50%, -50%);
