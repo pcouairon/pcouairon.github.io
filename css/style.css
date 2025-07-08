@@ -219,7 +219,6 @@ main {
     width: 20vw;
     height: 20vh;
     overflow: hidden;
-    pointer-events: none; /* ensures video doesn't block clicks */
 }
 
 .video-background video {
@@ -345,13 +344,11 @@ main {
     font-size: 18px;
     line-height: 1.5;
     margin-bottom: 30px;
-    z-index: 1;
 }
 
 #about-me a {
     color: #0077cc;
     text-decoration: none;
-    z-index: 1;
 }
 
 #about-me a:hover {
