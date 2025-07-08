@@ -230,7 +230,7 @@ main {
     width: auto;
     height: auto;
     transform: translate(-50%, -50%);
-    object-fit: cover;
+    object-fit: fill;
     z-index: -1;
 }
 
