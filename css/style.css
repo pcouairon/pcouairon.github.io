@@ -214,17 +214,7 @@ main {
     padding: 60px 30px 30px;
 }
 
-#intro video.intro-video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1; /* behind content */
-}
-
-/* .video-background {
+.video-background {
     position: relative;
     width: 100%;
     height: 100vh;
@@ -242,7 +232,7 @@ main {
     transform: translate(-50%, -50%);
     object-fit: cover;
     z-index: -1;
-} */
+}
 
 .pp {
     width: 180px;
