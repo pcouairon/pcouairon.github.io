@@ -212,7 +212,7 @@ main {
   align-items: center;
   justify-content: center;
   min-height: 45vh;
-  padding: 60px 30px 30px;
+  /* padding: 60px 30px 30px; */
   overflow: hidden;
   background: none;            /* remove old gradient */
 }
