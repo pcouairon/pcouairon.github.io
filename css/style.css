@@ -218,8 +218,7 @@ main {
     width: 100%;       /* Viewport width */
     height: 70vh;       /* Set your desired height */
     overflow: hidden;
-    z-index: -1;
-    pointer-events: none; /* Let clicks pass through */
+    /* z-index: -1; */
 }
 
 /* .video-background video {
