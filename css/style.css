@@ -204,17 +204,46 @@ main {
     margin-top: 10px;
 }
 
+
 #intro {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* background: linear-gradient(135deg, #2b6cb0, #4299e1); */
     min-height: 45vh;
     padding: 60px 30px 30px;
+    position: relative; /* To allow absolute positioning of video */
+    overflow: hidden;
 }
 
 .video-background {
+    position: absolute; /* Position video container absolutely in #intro */
+    top: 0;
+    left: 0;
+    width: 100%;      /* fill full width */
+    height: 100%;     /* fill full height */
+    overflow: hidden;
+    z-index: -1;      /* behind content */
+}
+
+.video-background video {
+    width: 100%;      /* fill container width */
+    height: 100%;     /* fill container height */
+    object-fit: cover; /* maintain aspect ratio, crop if necessary */
+    display: block;
+}
+
+/* #intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background: linear-gradient(135deg, #2b6cb0, #4299e1); */
+    /* min-height: 45vh;
+    padding: 60px 30px 30px;
+} */
+
+/* .video-background {
     position: relative;
     width: 95%;
     height: 60vh;
@@ -232,7 +261,7 @@ main {
     transform: translate(-50%, -50%);
     object-fit: cover;
     z-index: -1;
-}
+} */
 
 .pp {
     width: 180px;
