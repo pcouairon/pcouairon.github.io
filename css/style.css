@@ -218,8 +218,8 @@ main {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 45vh;
+    width: 20vw;
+    height: 20vh;
     overflow: hidden;
     z-index: -1;
     pointer-events: none; /* ensures video doesn't block clicks */
