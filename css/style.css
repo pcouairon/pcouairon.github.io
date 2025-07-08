@@ -205,23 +205,19 @@ main {
 }
 
 #intro {
-    position: relative;
-    min-height: 70vh;
     display: flex;
+    min-height: 70vh;
     align-items: center;
     justify-content: center;
     overflow: hidden;
 }
 
 .video-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;       /* Viewport width */
+    position: relative;
+    width: 100%;       /* Viewport width */
     height: 70vh;       /* Set your desired height */
     overflow: hidden;
     z-index: -1;
-    pointer-events: none; /* Let clicks pass through */
 }
 
 .video-background video {
