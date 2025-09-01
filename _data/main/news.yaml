@@ -1,8 +1,11 @@
 - date: 2022-10-01
   content: Started my PhD at [ISIR](https://www.isir.upmc.fr) ([Sorbonne University](https://www.sorbonne-universite.fr)) and Thales CortAIx labs.
 
+- date: 2023-10-32
+  content: Our paper [VidEdit](https://videdit.github.io) has been accepted at [NeurIPS 2023](https://neurips.cc/Conferences/2023) Workshop on Diffusion Models.
+
 - date: 2024-03-26
-  content: Our work [VidEdit](https://videdit.github.io) has been accepted at TMLR.
+  content: [VidEdit](https://videdit.github.io) has been accepted at TMLR.
 
 - date: 2024-06-05
   content: Preprint and code for [DiffCut](https://diffcut-segmentation.github.io) now available!
