@@ -217,7 +217,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #3d6c6f, #208582);
+    background: linear-gradient(135deg, #4d8dab, #227b95);
     min-height: 45vh;
     padding: 60px 30px 30px;
 }
