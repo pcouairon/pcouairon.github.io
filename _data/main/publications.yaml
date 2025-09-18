@@ -64,11 +64,11 @@
       url={https://arxiv.org/abs/2507.07620},
       }
 
-- title: "JAFAR: Jack-up Any Feature at Any Resolution"
+- title: "JAFAR: Jack up Any Feature at Any Resolution"
   authors: <u><a href="#">Paul Couairon</a></u>, <u><a href="#">Loïck Chambon</a></u>, <a href="#">Louis Serrano</a>, <a href="#">Jean-Emmanuel Haugeard</a>, <a href="#">Matthieu Cord</a>, <a href="#">Nicolas Thome</a>
   date: 2025-06-10
   year: 2025
-  journal: ArXiv Preprint
+  journal: NeurIPS 2025
   thumbnail: /assets/publications/jafar/thumbnail.png
   pdf:  https://arxiv.org/abs/2506.11136
   github: https://github.com/PaulCouairon/JAFAR
