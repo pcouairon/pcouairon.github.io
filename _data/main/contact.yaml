@@ -6,9 +6,9 @@
   icon: /assets/icons/linkedin.png
   name: LinkedIn
 
-# - url: 
-#   icon: /assets/icons/cv.png
-#   name: CV
+- url: /assets/about/cv.pdf
+  icon: /assets/icons/cv.png
+  name: CV
 
 - url: https://twitter.com/PaulCouairon
   icon: /assets/icons/twitter.png
