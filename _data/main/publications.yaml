@@ -75,12 +75,32 @@
   website: https://jafar-upsampler.github.io
   abstract: "Foundation Vision Encoders have become essential for a wide range of dense vision tasks. However, their low-resolution spatial feature outputs necessitate feature upsampling to produce the high-resolution modalities required for downstream tasks. In this work, we introduce JAFAR—a lightweight and flexible feature upsampler that enhances the spatial resolution of visual features from any Foundation Vision Encoder to an arbitrary target resolution. JAFAR employs an attention-based module designed to promote semantic alignment between high-resolution queries—derived from low-level image features—and semantically enriched low-resolution keys, using Spatial Feature Transform (SFT) modulation. Notably, despite the absence of high-resolution supervision, we demonstrate that learning at low upsampling ratios and resolutions generalizes remarkably well to significantly higher output scales. Extensive experiments show that JAFAR effectively recovers fine-grained spatial details and consistently outperforms existing feature upsampling methods across a diverse set of downstream tasks."
   bibtex: |
-    @inproceedings{couairon2025jafar,
-      title           ={JAFAR: Jack up Any Feature at Any Resolution},
-      author          ={Paul Couairon and Loick Chambon and Louis Serrano and Jean-Emmanuel Haugeard and Matthieu Cord and Nicolas Thome},
-      year            ={2025},
-      eprint          ={2506.11136},
-      archivePrefix   ={arXiv},
-      primaryClass    ={cs.CV},
-      url             ={https://arxiv.org/abs/2506.11136}
+    @inproceedings{
+      couairon2025jafar,
+      title={{JAFAR}: Jack up Any Feature at Any Resolution},
+      author={Paul Couairon and Loick Chambon and Louis Serrano and Jean-Emmanuel HAUGEARD and Matthieu Cord and Nicolas THOME},
+      booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+      year={2025},
+      url={https://openreview.net/forum?id=HnYk0mMEIt}
+      }
+
+
+- title: "NAF: Zero-Shot Feature Upsampling via Neighborhood Attention Filtering"
+  authors: <u><a href="#">Loïck Chambon</a></u>, <a href="#">Paul Couairon</a>, <a href="#">Eloi Zablocki</a>, <a href="#">Alexandre Boulch</a>, <a href="#">Nicolas Thome</a>, <a href="#">Matthieu Cord</a>
+  date: 2025-11-25
+  year: 2025
+  journal: ArXiv Preprint
+  thumbnail: /assets/publications/naf/thumbnail.png
+  pdf:  https://arxiv.org/pdf/2511.18452
+  github: https://github.com/valeoai/NAF
+  abstract: "Vision Foundation Models (VFMs) extract spatially downsampled representations, posing challenges for pixel-level tasks. Existing upsampling approaches face a fundamental trade-off: classical filters are fast and broadly applicable but rely on fixed forms, while modern upsamplers achieve superior accuracy through learnable, VFM-specific forms at the cost of retraining for each VFM. We introduce Neighborhood Attention Filtering (NAF), which bridges this gap by learning adaptive spatial-and-content weights through Cross-Scale Neighborhood Attention and Rotary Position Embeddings (RoPE), guided solely by the high-resolution input image. NAF operates zero-shot: it upsamples features from any VFM without retraining, making it the first VFM-agnostic architecture to outperform VFM-specific upsamplers and achieve state-of-the-art performance across multiple downstream tasks. It maintains high efficiency, scaling to 2K feature maps and reconstructing intermediate-resolution maps at 18 FPS. Beyond feature upsampling, NAF demonstrates strong performance on image restoration, highlighting its versatility."
+  bibtex: |
+    @misc{chambon2025naf,
+      title={NAF: Zero-Shot Feature Upsampling via Neighborhood Attention Filtering}, 
+      author={Loick Chambon and Paul Couairon and Eloi Zablocki and Alexandre Boulch and Nicolas Thome and Matthieu Cord},
+      year={2025},
+      eprint={2511.18452},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2511.18452}, 
       }
