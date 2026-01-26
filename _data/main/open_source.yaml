@@ -5,3 +5,7 @@
 - repo_name: JAFAR
   repo_owner: PaulCouairon
   type: own
+
+- repo_name: NAF
+  repo_owner: valeoai
+  type: own
