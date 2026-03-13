@@ -1,7 +1,6 @@
 name: Paul
 surname: Couairon
-short_description: PhD student in Computer Vision working on Visual Representations
-content: I'm a third year Computer Vision PhD student at [ISIR](https://www.isir.upmc.fr) lab from [Sorbonne University](https://www.sorbonne-universite.fr) and Thales CortAIx Lab under the supervision of [Nicolas Thome](https://thome.isir.upmc.fr).
-         I am currently working on visual representations, focusing on the use of foundation vision encoders for dense vision tasks. My research interests include diffusion models, self-supervised and weakly supervised learning and feature upsampling.
+short_description: PostDoc at [LIX](https://www.lix.polytechnique.fr)
+content: I'm a PostDoc researcher at [LIX](https://www.lix.polytechnique.fr) ([École Polytechnique](https://www.polytechnique.edu)) working on efficient training of flow matching models. My research interests include flow matching, representation learning and feature upsampling.
 
 pp_path: /assets/icons/profile_picture.jpg
