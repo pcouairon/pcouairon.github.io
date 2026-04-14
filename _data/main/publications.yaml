@@ -89,7 +89,8 @@
   authors: <u><a href="#">Loïck Chambon</a></u>, <a href="#">Paul Couairon</a>, <a href="#">Eloi Zablocki</a>, <a href="#">Alexandre Boulch</a>, <a href="#">Nicolas Thome</a>, <a href="#">Matthieu Cord</a>
   date: 2025-11-25
   year: 2025
-  journal: CVPR 2026
+  journal: CVPR 2026 
+  award: (Highlight)
   thumbnail: /assets/publications/naf/thumbnail.png
   pdf:  https://arxiv.org/pdf/2511.18452
   github: https://github.com/valeoai/NAF
