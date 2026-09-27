@@ -33,6 +33,20 @@
     <p>No reviews found.</p>
     {% endif %}
 </div>
+<div class="program-chair-section">
+    <h3>Program Chair</h3>
+    {% assign program_chair = site.data.main.misc.program_chair %}
+    {% if program_chair %}
+    {% assign program_chair = program_chair | sort: 'date' | reverse %}
+    <ul>
+        {% for pc in program_chair %}
+        <li>{{ pc.name }} ({{ pc.date | date: '%B, %Y' }})</li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <p>No program chairs found.</p>
+    {% endif %}
+</div>
 <!-- <div class="awards-section">
     <h3>Awards</h3>
     {% assign awards = site.data.main.misc.awards %}
