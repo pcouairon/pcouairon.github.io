@@ -1,3 +1,7 @@
+program chair:
+  - name: <a href="https://cvprinparis.github.io/CVPR2026InParis/">CVPR in Paris 2026</a>
+    date: (June, 2026)
+
 reviewer:
   - name: <a href="https://neurips.cc">NeurIPS 2025</a>
     date: (December, 2025)
